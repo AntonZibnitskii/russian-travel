@@ -1,0 +1,22 @@
+@import url(./_status/header__lang_status_active.css);
+
+.header__lang {
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 1em;
+  line-height: 23px;
+  font-weight: 400;
+  color: #fff;
+  transition: opacity .3s ease;
+}
+
+.header__lang:hover {
+  opacity: .8;
+}
+
+@media all and (max-width: 375px) {
+  .header__lang {
+    font-size: 18px;
+  }
+
+}

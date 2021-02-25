@@ -1,0 +1,14 @@
+.place__image {
+  margin: 0;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  grid-area: image;
+  }
+
+  @media all and (max-width: 767px) {
+    .place__image {
+      margin-top: 2rem;
+    }
+  }
